@@ -32,7 +32,7 @@ void test_simplification();
 
 int main(){
     run_tests();
-    cout << "Введите нужную функцию: analyzer или calculator\n";
+    cout << "Введите нужную функцию: analyzer или calculator\nФормат ввода:\nдля анализа делимости\nanalyzer\nчисло_1 число_2\nили для калькулятора\ncalculator\n*/* знак операции */*\n";
     string choice;
     cashe answers;
     do{
